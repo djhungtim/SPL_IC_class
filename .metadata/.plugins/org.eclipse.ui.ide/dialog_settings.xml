@@ -25,4 +25,7 @@
 		<item value="org.eclipse.tm.terminal.control.feature:4.6.1.202005200056"/>
 		<item value="org.eclipse.userstorage:1.2.0.v20191120-1614"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
 </section>
