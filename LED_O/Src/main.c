@@ -38,7 +38,9 @@ int main(void)
 	//2. configure the mode of the IO pin as output
 
 	//a. clear the 14th and 15th bit positions (CLEAR)
-	*pPortBModeReg &= 0xFFFFCFFF;
+	// *pPortBModeReg &= 0xFFFFCFFF;
+	*pPortBModeReg &= 0xFFFF3FFF; //correct
+	
 
 	//b. make 14th bit position as 1 (SET)
 	*pPortBModeReg |= 0x00004000;
